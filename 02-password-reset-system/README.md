@@ -64,7 +64,17 @@ The program:
 
 ## Example Output
 
-A screenshot of the password reset workflow will be added after the program is tested.
+The screenshot below shows the reset-code attempt limit in action. After three incorrect reset-code attempts, the password reset process is denied.
+
+![Password reset code lockout screenshot](./password-reset-code-lockout.png)
+
+## Known Limitation
+
+This project is a console-based learning simulation. The reset code is displayed in the console so the workflow can be tested.
+
+In a production system, the reset code should not be displayed to the user in the same session. It should be delivered out-of-band, such as by email, authenticator app, or another verified channel. 
+
+This helps prevent the reset process from revealing whether an account exists and provides stronger protection against account takeover.
 
 ## What I Learned
 
