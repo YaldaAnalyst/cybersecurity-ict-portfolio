@@ -55,7 +55,11 @@ The program:
 
 ## Example Output
 
-A screenshot of the program running will be added to show the login system in action.
+
+The screenshot below shows the failed login attempt limit in action. After three incorrect password attempts, access is denied.
+
+![Secure login failed attempt lockout](./secure-login-lockout.png)
+
 
 ## What I Learned
 
