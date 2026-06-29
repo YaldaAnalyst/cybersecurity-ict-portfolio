@@ -31,9 +31,10 @@ This repository showcases practical projects in Python scripting, authentication
 
 ### 1. Secure Login System
 
-**Skills demonstrated:** Authentication, access control, failed login attempt limits, error handling
 
-A Python project demonstrating username and password validation, login attempt limits, and basic defensive programming.
+**Skills demonstrated:** Authentication, access control, salted password hashing, PBKDF2-HMAC-SHA256, constant-time hash comparison, failed login attempt limits, error handling
+
+A Python project demonstrating secure login logic using salted password hashes, PBKDF2-HMAC-SHA256 with 600,000 iterations, hidden password input, failed login attempt limits, and generic error messages.
 
 [View project](./01-secure-login-system)
 
